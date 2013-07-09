@@ -349,7 +349,9 @@ PTE_SET_FN(ro, pte_wrprotect)
 PTE_SET_FN(rw, pte_mkwrite)
 
 SET_MEMORY_FN(ro, pte_set_ro)
+EXPORT_SYMBOL(set_memory_ro);
 SET_MEMORY_FN(rw, pte_set_rw)
+EXPORT_SYMBOL(set_memory_rw);
 
 /*
  * Adjust the PMD section entries according to the CPU in use.

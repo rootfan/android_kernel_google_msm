@@ -1,1 +1,2 @@
 header-y += bpf.h
+header-y += bpf_common.h

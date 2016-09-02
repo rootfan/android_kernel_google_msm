@@ -1,2 +1,3 @@
 header-y += bpf.h
 header-y += bpf_common.h
+header-y += bpf_perf_event.h
